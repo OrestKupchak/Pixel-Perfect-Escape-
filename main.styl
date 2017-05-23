@@ -155,7 +155,7 @@ html
             flex-direction column
 
             .dir-item
-                padding 25px 50px 38px 35px
+                padding 24px 54px 38px 27px
                 h4
                 font-weight bold
 
@@ -163,17 +163,8 @@ html
                     float left
                     width 80px
                     height 80px
-                    background-color black
-                    -moz-border-radius 50px
-                    -webkit-border-radius 50px
-                    border-radius 50px
                     margin-right 20px
-                    position relative
-
-                    img
-                        position absolute
-                        top 20%
-                        left 25%
+                                       
     .testimonials
         background-color #FAFAFA
         text-align center
@@ -250,18 +241,9 @@ html
                             padding 33px 78px 12px 80px
                         address
                             color blue    
-    .media-labels 
-        height 160px
-        .container
-            padding-top 60px
-            display flex
-            flex-direction row
-            justify-content center
-            .media-logo
-                height 20px
-                width 50px
-                padding 10px 30px 10px 10px
-
+    .media-labels .container
+        padding 55px 0px 30px 146px;
+            
     .team
         background-color #111111
         color white
@@ -282,16 +264,10 @@ html
                     padding-left 25px
                     padding-right 25px
                     .img-wrapper
-                        margin-left 22px
-                        margin-right -23px
-                        .img-circle 
-                            border 6px white solid
-                            width 219px
-                            height 219px
-                            -moz-border-radius 110px
-                            -webkit-border-radius 110px
-                            border-radius 115px
-                            margin-right 0px
+                        margin-left 19px
+                        margin-right -24px
+                        margin-top 22px
+                        
                     .card-info
                         flex-direction column
                         text-align center
@@ -302,16 +278,27 @@ html
                         .social
                             display flex
                             flex-direction row
-                            margin-left 20px
-                            li
-                                height 0px
-                                width 0px
+                            margin-left 35px
+                            margin-top 7px
+                            .soc-icon 
+                                display block
+                                margin 0 auto                       
                                 border-radius 100%
                                 -moz-border-radius 100px
                                 -webkit-border-radius 100px
                                 padding 20px
                                 border 3px white solid
-                            
+                                padding-right 10px
+                               
+                                &.twitter:hover
+                                    background-color #00aced
+                                &.facebook:hover
+                                    background-color #3b5998
+                                &.pinterest:hover
+                                    background-color #cb2028
+                                &.google:hover
+                                    background-color #d95232 
+                               
 
             .page-header
                     height 40px
@@ -325,8 +312,7 @@ html
                         font-size 20px
                         font-weight normal
                         color grey    
-                .img-circle 
-                    border 6px white solid
+                
             .team-footer
                     width 625px
                     line-height 28px
