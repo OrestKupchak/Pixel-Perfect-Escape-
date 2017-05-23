@@ -339,11 +339,10 @@ html .team .container .cards.row .card-item .card-info .social li {
   height: 0px;
   width: 0px;
   border-radius: 100%;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
   padding: 20px;
   border: 3px #fff solid;
-}
-html .team .container .cards.row .card-item .card-info .social img {
-  vertical-align: middle;
 }
 html .team .container .page-header {
   height: 40px;
@@ -369,4 +368,57 @@ html .team .container .team-footer {
   font-size: 19px;
   padding: 22px 220px 17px 160px;
   text-align: center;
+}
+html footer {
+  background-color: #7690c5;
+  color: #fff;
+}
+html footer .container {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+}
+html footer .container .left.contacts {
+  display: flex;
+  flex-direction: column;
+}
+html footer .container .left.contacts h3 {
+  font-size: 52px;
+  padding-top: 25px;
+  padding-bottom: 21px;
+}
+html footer .container .left.contacts span {
+  width: 425px;
+}
+html footer .container .left.contacts .cont-info {
+  display: flex;
+  flex-direction: row;
+}
+html footer .container .left.contacts .cont-info .contacts {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+html footer .container .left.contacts .cont-info .contacts li {
+  padding: 45px 102px 1px 8px;
+}
+html footer .container .right.formes {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+html footer .container .right.formes .contact-form {
+  margin-top: -20px;
+  padding-left: 20px;
+}
+html footer .container .right.formes .contact-form .form-group {
+  padding-top: 20px;
+}
+html footer .container .right.formes .contact-form input {
+  width: 455px;
+  height: 45px;
+}
+html footer .container .right.formes .contact-form textarea {
+  width: 455px;
 }
