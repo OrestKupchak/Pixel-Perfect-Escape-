@@ -180,3 +180,83 @@ html .direction .doubles .dir-item .circle-icon img {
   top: 20%;
   left: 25%;
 }
+html .testimonials {
+  background-color: #fafafa;
+  text-align: center;
+}
+html .testimonials .container {
+  padding-top: 30px;
+  dislay: flex;
+  flex-direction: column;
+}
+html .testimonials .container .page-header {
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+}
+html .testimonials .container .page-header h3 {
+  font-size: 55px;
+  font-weight: normal;
+}
+html .testimonials .container .page-header span {
+  font-size: 20px;
+  font-weight: normal;
+  color: #808080;
+}
+html .testimonials .container .ts-container {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+html .testimonials .container .ts-container .row {
+  display: flex;
+  flex-direction: row;
+}
+html .testimonials .container .ts-container .row .quotes {
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #808080;
+}
+html .testimonials .container .ts-container .row .quotes blockquote {
+  line-height: 28px;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+html .testimonials .container .ts-container .row .quotes address {
+  color: #00f;
+}
+html .testimonials .container .ts-container .row .photo {
+  margin-left: 0px;
+  margin-right: 29px;
+}
+html .testimonials .container .ts-container .row .photo .img-circle {
+  float: left;
+  width: 220px;
+  height: 220px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+html .testimonials .container .ts-container .row.two {
+  flex-direction: reverse-row;
+  padding-top: 80px;
+}
+html .testimonials .container .ts-container .row.two .photo.two {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+html .testimonials .container .ts-container .row.two .quotes.two {
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #808080;
+}
+html .testimonials .container .ts-container .row.two .quotes.two blockquote {
+  line-height: 28px;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+html .testimonials .container .ts-container .row.two .quotes.two address {
+  color: #00f;
+}
