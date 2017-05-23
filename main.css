@@ -206,6 +206,7 @@ html .testimonials .container .page-header span {
 }
 html .testimonials .container .ts-container {
   padding-top: 80px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
 }
@@ -214,14 +215,17 @@ html .testimonials .container .ts-container .row {
   flex-direction: row;
 }
 html .testimonials .container .ts-container .row .quotes {
+  width: 640px;
+  height: 170px;
+  margin-top: 30px;
   font-size: 18px;
   background-color: #fff;
   border: 1px solid #808080;
 }
 html .testimonials .container .ts-container .row .quotes blockquote {
-  line-height: 28px;
+  line-height: 32px;
   font-size: 24px;
-  padding-bottom: 10px;
+  padding: 33px 78px 12px 80px;
 }
 html .testimonials .container .ts-container .row .quotes address {
   color: #00f;
@@ -232,31 +236,137 @@ html .testimonials .container .ts-container .row .photo {
 }
 html .testimonials .container .ts-container .row .photo .img-circle {
   float: left;
-  width: 220px;
-  height: 220px;
+  width: 219px;
+  height: 219px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
-  border-radius: 100px;
+  border-radius: 110px;
   margin-right: 20px;
 }
 html .testimonials .container .ts-container .row.two {
   flex-direction: reverse-row;
-  padding-top: 80px;
+  padding-top: 36px;
 }
 html .testimonials .container .ts-container .row.two .photo.two {
   margin-right: 20px;
   margin-left: 20px;
 }
+html .testimonials .container .ts-container .row.two .photo.two img {
+  margin-right: -12px;
+  margin-top: 5px;
+}
 html .testimonials .container .ts-container .row.two .quotes.two {
+  width: 640px;
+  margin-left: 35px;
+  margin-right: 16px;
   font-size: 18px;
   background-color: #fff;
   border: 1px solid #808080;
 }
 html .testimonials .container .ts-container .row.two .quotes.two blockquote {
-  line-height: 28px;
+  line-height: 32px;
   font-size: 24px;
-  padding-bottom: 10px;
+  padding: 33px 78px 12px 80px;
 }
 html .testimonials .container .ts-container .row.two .quotes.two address {
   color: #00f;
+}
+html .media-labels {
+  height: 160px;
+}
+html .media-labels .container {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+html .media-labels .container .media-logo {
+  height: 20px;
+  width: 50px;
+  padding: 10px 30px 10px 10px;
+}
+html .team {
+  background-color: #111;
+  color: #fff;
+}
+html .team .container {
+  padding: 40px 70px 79px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: base-line;
+}
+html .team .container .cards.row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 112px;
+  padding-left: 29px;
+}
+html .team .container .cards.row .card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+html .team .container .cards.row .card-item .img-wrapper {
+  margin-left: 22px;
+  margin-right: -23px;
+}
+html .team .container .cards.row .card-item .img-wrapper .img-circle {
+  border: 6px #fff solid;
+  width: 219px;
+  height: 219px;
+  -moz-border-radius: 110px;
+  -webkit-border-radius: 110px;
+  border-radius: 115px;
+  margin-right: 0px;
+}
+html .team .container .cards.row .card-item .card-info {
+  flex-direction: column;
+  text-align: center;
+  padding: 15px 0px 26px 31px;
+}
+html .team .container .cards.row .card-item .card-info .name {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+html .team .container .cards.row .card-item .card-info .social {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+html .team .container .cards.row .card-item .card-info .social li {
+  height: 0px;
+  width: 0px;
+  border-radius: 100%;
+  padding: 20px;
+  border: 3px #fff solid;
+}
+html .team .container .cards.row .card-item .card-info .social img {
+  vertical-align: middle;
+}
+html .team .container .page-header {
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+}
+html .team .container .page-header h3 {
+  font-size: 55px;
+  font-weight: normal;
+}
+html .team .container .page-header span {
+  font-size: 20px;
+  font-weight: normal;
+  color: #808080;
+}
+html .team .container .img-circle {
+  border: 6px #fff solid;
+}
+html .team .container .team-footer {
+  width: 625px;
+  line-height: 28px;
+  font-size: 19px;
+  padding: 22px 220px 17px 160px;
+  text-align: center;
 }
